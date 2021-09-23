@@ -1,14 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
+
+        <!--Police d'écriture de la maquette, "Raleway"-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" 
+            rel="stylesheet"
+        />
+        <!--Les feuilles de styles pour divers support-->
+        <link rel="stylesheet" href="css/mobile-styles.css"/>  
+        <link rel="stylesheet" href="css/tab-styles.css" media="screen and (min-width:768px)"/>  
+        <link rel="stylesheet" href="css/desktop-styles.css" media="screen and (min-width:992px)"/> 
+        <!--Icone présente dans la barre de navigation-->       
+        <link rel="shortcut icon" href="img/reservia-logo.png" type="image/x-icon"/>
+
         <title>Reservia</title>
-        <!--penser a mettre icon-->
-        <!--mettre aussi le lien pour les feuilles de style-->
-        <!--pesner a la fleche pour remonter en hat=ut de la liste, voir ecxart par apport a desktop et mobile si faisable-->
     </head>
 
     <body>
+        <!--Bouton pour remonter en haut de la page-->
+        <div class="top">
+        <a href="#top"><img src="img/top.png" height="50" width="50" alt="Vers le haut" /></a>
+        </div>
         <!--Mettre les instence en commentaire-->
+        <header>
+            <div><img src="img/reservia-logo.png" alt="Logo de Reservia"/></div>
+            <div>	
+                <ul id="menu">
+                    <li><a href="#">Hébergement</a></li>
+                    <li><a href="#">Activités</a></li>
+                    <li><a href="#">S'inscrire</a></li>    
+                </ul>
+            </div>
+            <div>
+                <h1>Trouvez votre hébergement pour des vacance de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <div>
+                <div><img src="img/map .svg" alt="picto de localisation"/></div>
+                <div><input type="search" placeholder="Marseille, France" /></div>
+                <div>Rechercher</div>
+            </div>
+                <img src="img/search .svg" alt="picto de recherche"/>              
+            </div>
+            <div>
+                <p>Filtre</p>
+                <div><img src="img/mone y.svg" alt="picto d'un billet"/>
+                    <p>Économique</p>
+                </div>
+                <div><img src="img/child .svg" alt="picto d'un enfant"/>
+                    <p>Familial</p>
+                </div>
+                <div><img src="img/heart .svg" alt="picto d'un coeur"/>
+                    <p>Romantique</p>
+                </div>
+                <div><img src="img/dog .svg" alt="picto d'un chien"/>
+                    <p>Animaux autorisés</p>
+                </div>
+                <div><img src="img/info.svg" alt="picto d'information"/>
+                    <p>Plus de 500 logement sont disponibles dans cette ville</p>
+                </div>
+            </div>
+        </header>
+        <!--Section "Les plus populaires"-->
+        <section>
+            <div>
+                <div>
+                    <H2>Les plus populaires</H2>
+                    <img src="img/chartline.svg" alt="Flêche de variation"/>
+                </div>
+                <div>
+                    <div>
+                        image
+                        titre
+                        texte
+                        etoile
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Toute la zone du footeur, bas de page-->
+        <footer>
+            <div>
+                <div>
+                    <h3>A propos</h3>
+                    <ul>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Nos hébergements</h3>
+                    <ul>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Soumettre votre hôtel</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Assistance</h3>
+                    <ul>
+                        <li><a href="#">>Centre d'aide</a></li>
+                        <li><a href="#">Nous contacter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
