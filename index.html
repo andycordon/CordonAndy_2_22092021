@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-
+        <script src="https://kit.fontawesome.com/325ecb5913.js" crossorigin="anonymous"></script>
         <!--Police d'écriture de la maquette, "Raleway"-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,46 +22,47 @@
 
     <body>
         <!--Bouton pour remonter en haut de la page-->
-        <div class="top">
-        <a href="#top"><img src="img/top.png" height="50" width="50" alt="Vers le haut" /></a>
-        </div>
         <!--Mettre les instence en commentaire-->
-        <header>
-            <div><img src="img/reservia-logo.png" alt="Logo de Reservia"/></div>
-            <div>	
-                <ul id="menu">
-                    <li><a href="#">Hébergement</a></li>
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#">S'inscrire</a></li>    
-                </ul>
+        <nav>
+            <div class="flexBetween">
+                <div><img class="logo" src="img/reservia-logo.png" alt="Logo de Reservia"/></div>
+                <div><a class="lienColor1 decorationNone lienSize inscrire" href="#">S'inscrire</a></div> 
             </div>
-            <div>
-                <h1>Trouvez votre hébergement pour des vacance de rêve</h1>
+            <div class="flex">
+                <div><a class="lienColor1 decorationNone lienSize navBorder1 navPadding1" href="#">Hébergements</a></div>
+                <div><a class="lienColor2 decorationNone lienSize navBorder2 navPadding2" href="#">Activités</a></div>
+            </div>
+        </nav>
+        <header>
+            <div class="paddingBottom">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
-            <div>
-                <div><img src="img/map .svg" alt="picto de localisation"/></div>
-                <div><input type="search" placeholder="Marseille, France" /></div>
-                <div>Rechercher</div>
+            <div class="flex">
+                <div class="picto map"><img src="img/map.svg" alt="picto de localisation"/></div>
+                <div class="barre"><input type="search" placeholder="Marseille, France" /></div>
+                <div class="picto search"><img src="img/search.svg" alt="picto de recherche"/></div>        
             </div>
-                <img src="img/search .svg" alt="picto de recherche"/>              
-            </div>
+            <!--Début de la zone de Filtres-->
             <div>
-                <p>Filtre</p>
-                <div><img src="img/mone y.svg" alt="picto d'un billet"/>
-                    <p>Économique</p>
-                </div>
-                <div><img src="img/child .svg" alt="picto d'un enfant"/>
-                    <p>Familial</p>
-                </div>
-                <div><img src="img/heart .svg" alt="picto d'un coeur"/>
-                    <p>Romantique</p>
-                </div>
-                <div><img src="img/dog .svg" alt="picto d'un chien"/>
-                    <p>Animaux autorisés</p>
-                </div>
-                <div><img src="img/info.svg" alt="picto d'information"/>
-                    <p>Plus de 500 logement sont disponibles dans cette ville</p>
+                <div><h3>Filtres</h3></div>
+                <div class="filtre filtreMargin"">
+                    <div class="flexBetween filtreInside">
+                        <i class="fas fa-money-bill-wave filtrePicto flexCenter"></i>
+                        <div>Économique</div>
+                    </div>
+                    <div class="flexBetween filtreInside">
+                        <i class="fas fa-child filtrePicto flexCenter"></i>
+                        <div>Familiales</div>
+                    </div>
+                    <div class="flexBetween filtreInside">
+                        <i class="fas fa-heart filtrePicto flexCenter"></i>
+                        <div>Romantique</div>
+                    </div>
+                    <div class=" flexBetween filtreInside">
+                        <i class="fas fa-dog filtrePicto flexCenter"></i>
+                        <div>Animaux autorisés</div>
+                    </div> 
                 </div>
             </div>
         </header>
@@ -69,8 +70,8 @@
         <section>
             <div>
                 <div>
-                    <H2>Les plus populaires</H2>
-                    <img src="img/chartline.svg" alt="Flêche de variation"/>
+                    <h2>Les plus populaires</h2>
+                    <img src="img/chartlin.svg" alt="Flêche de variation"/>
                 </div>
                 <div>
                     <div>
@@ -82,30 +83,48 @@
                 </div>
             </div>
         </section>
+        <!--Section Hébergement à Marseille-->
+        <section>
+            <div>
+                <H3>Hébergement à Marseille</H3>
+                <div>
+                    <div class="hebergement1"></div>
+                    <div>
+                        <h3>Auberge de la Cannebière</h3>
+                        <p>Nuit à partir de 25€</p>
+                        <div>etoile</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Section Activités à Marseille-->
+        <section>
+            <div><H1>Activités à Marseille</H1></div>
+            <div class="flex">
+                <div class="act">
+                    <div><img class="actMarseille" src="img/vieux-port.jpg" alt="Logo de Reservia"/></div>
+                    <div><h3>Vieux Port</h3></div>                
+                </div>
+            </div>
+        </section>
         <!--Toute la zone du footeur, bas de page-->
         <footer>
-            <div>
+            <div class="fond">
                 <div>
                     <h3>A propos</h3>
-                    <ul>
-                        <li><a href="#">Fonctionnement du site</a></li>
-                        <li><a href="#">Conditions générales de vente</a></li>
-                        <li><a href="#">Données et confidentialité</a></li>
-                    </ul>
+                    <div class="lienEncart"><a class="decorationNone lien" href="#">Fonctionnement du site</a></div> 
+                    <div class="lienEncart"><a class="decorationNone lien" href="#">Conditions générales de vente</a></div> 
+                    <div class="lienEncart"><a class="decorationNone lien" href="#">Données et confidentialité</a></div> 
                 </div>
                 <div>
                     <h3>Nos hébergements</h3>
-                    <ul>
-                        <li><a href="#">Charte qualité</a></li>
-                        <li><a href="#">Soumettre votre hôtel</a></li>
-                    </ul>
+                    <div class="lienEncart"><a class="decorationNone lien" href="#">Charte qualité</a></div> 
+                    <div class="lienEncart"><a class="decorationNone lien" href="#">Soumettre votre hôtel</a></div> 
                 </div>
                 <div>
                     <h3>Assistance</h3>
-                    <ul>
-                        <li><a href="#">>Centre d'aide</a></li>
-                        <li><a href="#">Nous contacter</a></li>
-                    </ul>
+                    <div class="lienEncart"><a class="decorationNone lien" href="#">Centre d'aide</a></div> 
+                    <div class="lienEncart"><a class="decorationNone lien" href="#">Nous contacter</a></div> 
                 </div>
             </div>
         </footer>
