@@ -1,0 +1,162 @@
+/*Feuille de style pour mobiles*/
+/*Toute la page*/
+body {
+	font-family:raleway; 
+	font-size:20px;
+	width:460px;
+}
+.picto{
+	width: 20px;
+}
+.flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexBetween {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+/*Navigation*/
+.logo {
+	width: 120px;
+	margin: 20px;
+}
+.inscrire {
+	font-weight:900;
+	padding: 10px;;
+	margin-right: 25px;
+}
+.decorationNone {
+	text-decoration: none;
+}
+.lienSize{
+	font-size: 1.2rem;
+}
+.lienColor1 {
+	color: #0065fc;
+}
+.lienColor2 {
+	color:black;
+}
+.navBorder1 {
+	border-bottom: 3px solid #0065fc;
+}
+.navBorder2 {
+	border-bottom: 3px solid #f2f2f2;
+} 
+nav a:hover {
+	color:#fff;
+	background-color: #0065fc;
+	border-radius: 5px;
+   }
+
+.navPadding1 {
+	padding: 10px 45px;
+}
+.navPadding2 {
+	padding: 10px 80px;
+}
+/*Header*/
+h1 {
+	font-weight: 900;
+	font-size: 27px;
+	width: 360px;
+	margin: 50px 0 0 20px;
+}
+p {
+	margin-left: 20px;
+}
+.map {
+	background-color: #f2f2f2;
+	padding: 14.5px 22px 14px 22px;
+
+	border-radius: 20px 0 0 20px;
+	margin-left: 20px;;
+
+}
+.search {
+	background-color: #ff9a03;
+	color: white;
+	padding: 17.5px 19px 18px 19px;
+	border-radius: 20px;
+	filter: invert(100%);
+	cursor: pointer; 
+	margin-left: 50px;;
+}
+.barre {
+	width: 250px;
+}
+input {
+	height: 60px;
+	width: 320px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: 900;
+	font-family: raleway;
+	color: black;
+	border: solid #f2f2f2 2px;
+}
+input:focus {
+	outline: none;
+}
+.paddingBottom {
+	padding-bottom: 20px;
+}
+/*Filtres*/
+.filtre {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+h3 {
+	margin: 30px 0 15px 20px;
+	font-size: 22px;
+}
+.filtreMargin {
+	margin-left: 20px;
+}
+.filtreInside {
+	border: 2px solid #f2f2f2;
+	height: 50px;
+	border-radius: 30px;
+	margin-right: 20px;
+}
+.filtrePicto {
+	border-radius: 25px;
+	width: 52px;
+	height: 52px;
+	color: #0065fc;
+	background-color: #deebff;
+}
+
+
+
+
+
+
+
+/*Footer*/
+.fond {
+	background-color: #f2f2f2;
+	padding: 15px 0 40px 0;
+}
+footer h3 {
+	margin: 40px 0 30px 20px;
+}
+.lienEncart {
+	margin: 15px 0px;
+}
+.lien {
+	margin-left: 20px;
+	margin-top: 50px;
+	color:black;
+}
+footer a:hover {
+	color:#0065fc;
+   }
