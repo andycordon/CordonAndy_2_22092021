@@ -1,4 +1,8 @@
 /*Feuille de style pour tablettes*/
 *{
-    background-color: red;
+    background-color: paleturquoise;
+}
+header{
+    margin: 0;
+    flex-direction: wrap;
 }
