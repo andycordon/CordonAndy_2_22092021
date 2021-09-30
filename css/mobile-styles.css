@@ -1,12 +1,10 @@
 /* FEUILLE DE STYLES DE DEPART - POUR MOBILE*/
+
 /* GENERAL */
 body {
 	margin: 0;
 	padding: 0;
 	font-family: "raleway";
-}
-#accueil {
-    margin: 20px;
 }
 a {
     text-decoration: none;
@@ -40,26 +38,39 @@ h4 {
 .flexColumn {
 	display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.flexNowrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flexEnd {
+	display: flex;
+    justify-content: flex-end;
 }
 .survol:hover {
 	background-color: #deebff;
 }
+.paddingSection {
+	padding: 10px 20px;
+	margin: 20px 0;
+}
+.colorSection1 {
+	background-color: #f2f2f2;
+}
 
 /* HEADER */
-
 .logo {
-	margin-left: 20px;
+	margin:20px 0 0 20px;
 	width: 90px;
 }
 .subscribe {
 	color: #0065fc;
 	font-weight: 900;
 	font-size: 0.9rem;
-	margin: 10px 20px 0 0;
+	margin: 40px 20px 0 0;
 }
-header {
-	margin-bottom: 30px;
-}
+
  /*  NAVIGATION */
 .menu {
 	width: 50%;
@@ -110,6 +121,9 @@ input:focus {
     cursor: pointer;
 	margin-left: -10px;
 }
+.txtSearch {
+	display: none;
+}
 
 /* FILTERS */
 .filter {
@@ -141,67 +155,52 @@ input:focus {
 .pictoInfo {
     width: 22px;
 	height: 22px;
-	color: #0065fc;
-	font-size: 0.8rem;
     border: 1px solid #f2f2f2;
     border-radius: 25px;
-    margin-right: 10px;
+	margin-right: 10;
+}
+.fa-info {
+	color: #0065fc;
+	font-size: 0.8rem;
 }
 .info {
-	display: flex;
-	flex-wrap: nowrap;
 	margin: 20px 0;
 }
-
 /* POPULAR*/
-.popular {
-	background-color: #f2f2f2;
-	padding: 20px 10px 20px 0;
-}
-.marginPopular {
-	margin: 0 20px;
-}
-.titlePopular {
-	margin-bottom: 10px;
-}
-.pictoChart {
+.fa-chart-line {
 	font-size: 1.5rem;
-	margin: 15px 20px 0 0;
+	margin-top: 20px;
 }
 .hotelPopular {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 0 5px #dcdcdc;
-	height: 140px;
-	margin-bottom: 15px;
-	flex-wrap: nowrap;
+	height: 150px;
+	margin: 10px 0;
 }
 .imgPopular {
-	border-radius: 10px 0 0 10px;
-	width: 130px;
-	margin: 5px;
+	border-radius: 15px 0 0 15px;
+	width: 140px;
+	height: 140px;
+	padding: 5px 0 5px 5px;
     object-fit: cover;	
 }
 .textPopular {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-	font-size: 0.9rem;
+    padding: 20px;
 }
 .hotelName {
-    margin: 5px 0 0 5px;
+    margin: 0px;
 }
 .hotelTarif {
-    margin: 5px 0 0 5px;
+	font-size: 0.9rem;
+    margin-top: 5px;
 }
 .spaceStar {
     word-spacing: -3px;
-	margin: 0 0 5px 5px;
 }
 .fa-star {
     font-size: 0.8rem;
     letter-spacing: 2px;
-	margin-top: 5px;
 }
 .star {
 	color: #0065FC;
@@ -211,73 +210,66 @@ input:focus {
 }
 
 /*HEBERGEMENTS*/
-.hebergements {
-	margin: 0 20px;
-	padding: 20px 10px 10px 0;
-}
 .hotelHebergement {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 0 5px #dcdcdc;
 	height: 190px;
-	margin-bottom: 15px;
-	padding: 5px;
+	margin: 10px 0;
+	padding: 5px 5px 0 5px;
 }
 .imgHebergement {
 	border-radius: 15px 15px 0 0;
-	height: 120px;
+	height: 110px;
 	width: 100%;
     object-fit: cover;
 }
 .textHebergement {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 0 0 10px;
+    padding: 5px 15px;
+}
+.hebergementName {
+    margin: 0;
+}
+.hebergementTarif {
 	font-size: 0.9rem;
+    margin: 5px 0;
 }
 .showMore{
     font-weight: 900;
     font-size: 1.1rem;
-	margin: 0 0 0 20px;
+	margin: 20px 0 0 0;
 }
 .showMore:hover {
 	color: #0065fc;
 	font-weight: 500;
-	margin-left: 22px;
+	margin-left: 2px;
 }
 
 /* ACTIVITES */
-.activities {
-	margin: 0 20px;
-	padding: 20px 10px 10px 0;
-}
-.hotelActivities {
+.hotelActivites {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 0 5px #dcdcdc;
-	height: 180px;
-	margin-bottom: 15px;
+	height: 190px;
+	margin: 10px 0;
 }
-.imgActivities {
+.imgActivites {
 	border-radius: 15px 15px 0 0;
-	height: 120px;
+	height: 140px;
 	width: 100%;
     object-fit: cover;
 }
-.textActivities {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 0 0 10px;
-	font-size: 0.9rem;
+.textActivites {
+    padding: 10px 15px;
 }
-.hotelNameActivities {
-	margin:20px 0 0 10px;
+.activitesName {
+    margin: 0;
 }
 
 /* FOOTER */
 .blocFooter {
 	background-color: #f2f2f2;
-	padding: 10px 40px 30px 40px;	
+	padding: 30px 0 30px 20px;
 }
 footer h3 {
 	margin-top: 40px;

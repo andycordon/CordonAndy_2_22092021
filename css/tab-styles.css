@@ -1,8 +1,97 @@
-/*Feuille de style pour tablettes*/
-*{
-    background-color: paleturquoise;
+/*FEUILLE DE STYLES POUR TABLETTES*/
+
+/*GENERAL*/
+.page {
+    margin: 0 20px;
 }
-header{
-    margin: 0;
-    flex-direction: wrap;
+h2 {
+    font-size: 1.4rem;
+}
+
+/*HEADER*/
+.logo {
+	margin:40px 0 0 20px;
+	width: 120px;
+}
+
+/*SEARCH*/
+.fa-search {
+    display: none;
+}
+.txtSearch {
+    display: block;
+}
+.searchPicto {
+    width: 120px;
+    border-radius:0 15px 15px 0;
+    font-family:"raleway";
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+/*POPULAR*/
+.paddingSection {
+    border-radius: 15px;
+}
+.hotelPopular {
+	height: 200px;
+}
+.imgPopular {
+	border-radius: 15px 0 0 15px;
+	width: 250px;
+	height: 190px;
+	padding: 5px 0 5px 5px;
+    object-fit: cover;	
+}
+.hotelName {
+    font-size: 1.4rem;
+}
+article .hotelTarif {
+    font-size: 1.2rem
+}
+.fa-star {
+    font-size: 1rem;
+}
+
+/*HEBERGEMENTS*/
+.colorSection2 {
+    background-color: #f2f2f2;
+}
+.tabFlex{
+    display: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.hotelHebergement {
+	height: 240px;
+    width: 320px;
+}
+.imgHebergement {
+	height: 150px;
+}
+
+/*ACTIVITES*/
+.hotelActivites {
+	height: 220px;
+    width: 330px;;
+}
+.imgActivites {
+	height: 170px;
+}
+
+/* FOOTER */
+.blocFooter {
+	background-color: #f2f2f2;
+	padding: 30px 0 30px 20px;
+    display: flex;
+	flex-wrap: wrap;
+}
+footer h3 {
+	margin-top: 40px;
+}
+footer a {
+	padding:5px 0;
+}
+footer a:hover{
+	color: #0065fc;
 }
