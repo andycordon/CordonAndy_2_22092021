@@ -2,12 +2,11 @@
 
 /*GENERAL*/
 .page {
-    margin: 0 20px;
+    margin: 0 40px;
 }
 h2 {
     font-size: 1.4rem;
 }
-
 /*HEADER*/
 .logo {
 	margin:40px 0 0 20px;
@@ -20,6 +19,7 @@ h2 {
 }
 .txtSearch {
     display: block;
+    padding-top: 20px;
 }
 .searchPicto {
     width: 120px;
@@ -32,9 +32,6 @@ h2 {
 /*POPULAR*/
 .paddingSection {
     border-radius: 15px;
-}
-.hotelPopular {
-	height: 200px;
 }
 .imgPopular {
 	border-radius: 15px 0 0 15px;
@@ -63,8 +60,7 @@ article .hotelTarif {
     flex-direction: row;
 }
 .hotelHebergement {
-	height: 240px;
-    width: 320px;
+    width: 47%;
 }
 .imgHebergement {
 	height: 150px;
@@ -72,26 +68,25 @@ article .hotelTarif {
 
 /*ACTIVITES*/
 .hotelActivites {
-	height: 220px;
-    width: 330px;;
+    width: 48%;
 }
 .imgActivites {
 	height: 170px;
+}
+.paddingSectionTab {
+    margin: 0 -20px;
 }
 
 /* FOOTER */
 .blocFooter {
 	background-color: #f2f2f2;
-	padding: 30px 0 30px 20px;
+	padding: 30px 40px;
     display: flex;
 	flex-wrap: wrap;
+    margin-top: 20px;
 }
-footer h3 {
-	margin-top: 40px;
-}
-footer a {
-	padding:5px 0;
-}
-footer a:hover{
-	color: #0065fc;
+.flexStartTab {
+    display: flex;
+    justify-content: flex-start;
+    margin-right:60px;
 }

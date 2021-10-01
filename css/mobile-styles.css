@@ -1,4 +1,4 @@
-/* FEUILLE DE STYLES DE DEPART - POUR MOBILE*/
+/* FEUILLE DE STYLES DE DEPART - POUR MOBILES*/
 
 /* GENERAL */
 body {
@@ -72,6 +72,9 @@ h4 {
 }
 
  /*  NAVIGATION */
+.menuSize {
+	width: 100%;
+}
 .menu {
 	width: 50%;
 	text-align: center;
@@ -79,7 +82,7 @@ h4 {
 	padding: 15px 0;
 	margin-top: 10px;
 }
- nav a:hover {
+nav a:hover {
     color: #0065FC;
     border-bottom: 3px solid #0065FC;
     padding-bottom: 10px;
@@ -95,6 +98,7 @@ h4 {
 .searchBar {
     height: 50px;
 	margin: 30px 0;
+	width: 100%;
 }
 .pictoMap {
 	background-color: #f2f2f2;
@@ -107,7 +111,6 @@ h4 {
 	font-family: "raleway";
     font-size: 1.1rem;
     font-weight: 700;
-    width: 240px;
 }
 input:focus {
     outline: none;
@@ -119,7 +122,6 @@ input:focus {
     border-radius: 15px;
     color: #fff;
     cursor: pointer;
-	margin-left: -10px;
 }
 .txtSearch {
 	display: none;
@@ -166,6 +168,13 @@ input:focus {
 .info {
 	margin: 20px 0;
 }
+.paddingFilters {
+	margin: 0 20px;
+}
+.txtInfo{
+	width: 80%;
+	margin: 0 0 0 5px;
+}
 /* POPULAR*/
 .fa-chart-line {
 	font-size: 1.5rem;
@@ -175,7 +184,8 @@ input:focus {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 0 5px #dcdcdc;
-	height: 150px;
+	height: 100%;
+    width: 100%;
 	margin: 10px 0;
 }
 .imgPopular {
@@ -214,7 +224,8 @@ input:focus {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 0 5px #dcdcdc;
-	height: 190px;
+	height: 100%;
+    width: 100%;
 	margin: 10px 0;
 	padding: 5px 5px 0 5px;
 }
@@ -250,7 +261,8 @@ input:focus {
 	background-color: #fff;
 	border-radius: 15px;
 	box-shadow: 0 0 5px #dcdcdc;
-	height: 190px;
+	height: 100%;
+    width: 100%;
 	margin: 10px 0;
 }
 .imgActivites {
