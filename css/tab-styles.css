@@ -1,4 +1,4 @@
-/*FEUILLE DE STYLES POUR TABLETTES*/
+/*RESERVIA - FEUILLE DE STYLES POUR TABLETTES*/
 
 /*GENERAL*/
 .page {
@@ -8,9 +8,12 @@ h2 {
     font-size: 1.4rem;
 }
 /*HEADER*/
-.logo {
+.logoReservia {
 	margin:40px 0 0 20px;
 	width: 120px;
+}
+.inscription {
+	margin: 70px 0 0 90px;
 }
 
 /*SEARCH*/
@@ -37,7 +40,6 @@ h2 {
 	border-radius: 15px 0 0 15px;
 	width: 250px;
 	height: 190px;
-	padding: 5px 0 5px 5px;
     object-fit: cover;	
 }
 .hotelName {
@@ -55,7 +57,7 @@ article .hotelTarif {
     background-color: #f2f2f2;
 }
 .tabFlex{
-    display: wrap;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -79,7 +81,6 @@ article .hotelTarif {
 
 /* FOOTER */
 .blocFooter {
-	background-color: #f2f2f2;
 	padding: 30px 40px;
     display: flex;
 	flex-wrap: wrap;
@@ -88,5 +89,5 @@ article .hotelTarif {
 .flexStartTab {
     display: flex;
     justify-content: flex-start;
-    margin-right:60px;
+    margin-right:50px;
 }

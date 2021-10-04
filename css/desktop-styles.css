@@ -1,125 +1,162 @@
-/*FEUILLE DE STYLES POUR ORDINATEURS*/
-
-/*GENERAL*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*FEUILLE DE STYLES POUR TABLETTES*/
+/*RESERVIA - FEUILLE DE STYLES POUR ORDINATEURS*/
 
 /*GENERAL*/
 .page {
-    margin: 0 40px;
+    margin: 0px;
 }
-h2 {
-    font-size: 1.4rem;
-}
-/*HEADER*/
-.logo {
-	margin:40px 0 0 20px;
-	width: 120px;
+.paddingSection {
+	margin: 20px;
 }
 
-/*SEARCH*/
-.fa-search {
-    display: none;
+/*HEADER*/
+.flexHeader{
+    grid-template-columns: 0.6fr 0fr 0.3fr 0.1fr; 
 }
-.txtSearch {
-    display: block;
-    padding-top: 20px;
-}
-.searchPicto {
-    width: 120px;
-    border-radius:0 15px 15px 0;
-    font-family:"raleway";
+.inscription {
+	margin: 57px 20px 0 0px;
     font-size: 1rem;
-    font-weight: 900;
+}
+
+/*NAVIGATION*/
+nav {
+    grid-column: 3/4;
+    grid-row: 1/2;
+	height: 70px;
+	margin: 0 20px 0 0;
+}
+.main1{
+    padding-top: 60px;
+	border-bottom: none;
+    border-top: 3px solid #fff;
+}
+.main2{
+    padding-top: 60px;
+	border-bottom: none;
+    border-top: 3px solid #fff;
+}
+nav a:hover {
+    border-top: 3px solid #0065FC;;
+    border-bottom: none;
+}
+
+/*FILTERS*/
+.flexFiltersDesktop {
+    display: flex;
+    flex-wrap: wrap;
+}
+.titleDesktop {
+    margin: 15px 20px 0 10px;
+}
+.info{
+    margin-left: 10px;
+}
+
+/*SECTIONS FIRST AND SECOND DESKTOP*/
+.sectionFirstAndSecondDesktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.firstSection {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.secondSection {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+/*HEBERGEMENT*/
+.hotelHebergement {
+    width: 30%;
+}
+.imgHebergement {
+	height: 120px;
+}
+.fa-star {
+    font-size: 0.8rem;
 }
 
 /*POPULAR*/
-.paddingSection {
-    border-radius: 15px;
+.hotelPopular {
+    height: 100%;
+	margin: 10px 0;
+    padding-bottom: 0px;
 }
 .imgPopular {
-	border-radius: 15px 0 0 15px;
-	width: 250px;
-	height: 190px;
-	padding: 5px 0 5px 5px;
-    object-fit: cover;	
-}
-.hotelName {
-    font-size: 1.4rem;
-}
-article .hotelTarif {
-    font-size: 1.2rem
-}
-.fa-star {
-    font-size: 1rem;
+	width: 130px;
+	height: 140px;
 }
 
-/*HEBERGEMENTS*/
-.colorSection2 {
-    background-color: #f2f2f2;
+.hotelPopular h3 {
+    font-size:1rem;
 }
-.tabFlex{
-    display: wrap;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.hotelHebergement {
-    width: 47%;
-}
-.imgHebergement {
-	height: 150px;
+.hotelPopular p {
+    font-size:0.9rem;
 }
 
 /*ACTIVITES*/
 .hotelActivites {
-    width: 48%;
+    margin: 0;
+}
+.desktopGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin: 0 -20px 40px -20px;
+}
+.gridActivites1 {
+    grid-column: 1/2;
+    grid-row: 1/9;
+    width: 100%;
+}
+.gridActivites2 {
+    grid-column: 2/3;
+    grid-row: 1/6;
+    width: 100%;
+}
+.gridActivites3 {
+    grid-column: 2/3;
+    grid-row: 6/9;
+    width: 100%;
+}
+.gridActivites4 {
+    grid-column: 3/4;
+    grid-row: 1/9;
+    width: 100%;
+}
+.gridActivites5 {
+    grid-column: 4/5;
+    grid-row: 1/5;
+    width: 100%;
+}
+.gridActivites6 {
+    grid-column: 4/5;
+    grid-row: 5/9;
+    width: 100%;
 }
 .imgActivites {
-	height: 170px;
+	height: 0px;
 }
-.paddingSectionTab {
-    margin: 0 -20px;
+.xlImg {
+    height: 360px;
+}
+.lImg {
+    height:194px;
+}
+.mImg {
+    height: 138.5px;
+}
+.sImg {
+    height: 83px;
 }
 
-/* FOOTER */
+/*FOOTER*/
 .blocFooter {
-	background-color: #f2f2f2;
-	padding: 30px 40px;
-    display: flex;
-	flex-wrap: wrap;
-    justify-content: space-between;
+	padding: 30px 20px;
 }
+
 .flexStartTab {
-    display: flex;
-    justify-content: flex-start;
+    margin-right:140px;
 }
