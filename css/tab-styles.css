@@ -1,4 +1,93 @@
-/*Feuille de style pour tablettes*/
-*{
-    background-color: red;
+/*RESERVIA - FEUILLE DE STYLES POUR TABLETTES*/
+
+/*GENERAL*/
+.page {
+    margin: 0 40px;
+}
+h2 {
+    font-size: 1.4rem;
+}
+/*HEADER*/
+.logoReservia {
+	margin:40px 0 0 20px;
+	width: 120px;
+}
+.inscription {
+	margin: 70px 0 0 90px;
+}
+
+/*SEARCH*/
+.fa-search {
+    display: none;
+}
+.txtSearch {
+    display: block;
+    padding-top: 20px;
+}
+.searchPicto {
+    width: 120px;
+    border-radius:0 15px 15px 0;
+    font-family:"raleway";
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+/*POPULAR*/
+.paddingSection {
+    border-radius: 15px;
+}
+.imgPopular {
+	border-radius: 15px 0 0 15px;
+	width: 250px;
+	height: 190px;
+    object-fit: cover;	
+}
+.hotelName {
+    font-size: 1.4rem;
+}
+article .hotelTarif {
+    font-size: 1.2rem
+}
+.fa-star {
+    font-size: 1rem;
+}
+
+/*HEBERGEMENTS*/
+.colorSection2 {
+    background-color: #f2f2f2;
+}
+.tabFlex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.hotelHebergement {
+    width: 47%;
+}
+.imgHebergement {
+	height: 150px;
+}
+
+/*ACTIVITES*/
+.hotelActivites {
+    width: 48%;
+}
+.imgActivites {
+	height: 170px;
+}
+.paddingSectionTab {
+    margin: 0 -20px;
+}
+
+/*FOOTER*/
+.blocFooter {
+	padding: 30px 40px;
+    display: flex;
+	flex-wrap: wrap;
+    margin-top: 20px;
+}
+.flexStartTab {
+    display: flex;
+    justify-content: flex-start;
+    margin-right:50px;
 }
