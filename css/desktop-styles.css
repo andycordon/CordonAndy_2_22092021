@@ -2,14 +2,15 @@
 
 /*GENERAL*/
 .page {
-    margin: 0px;
+	max-width: 1400px;
+	margin: auto;
 }
 .paddingSection {
 	margin: 20px;
 }
 
 /*HEADER*/
-.flexHeader{
+.flexHeader {
     grid-template-columns: 0.6fr 0fr 0.3fr 0.1fr; 
 }
 .inscription {
@@ -24,18 +25,18 @@ nav {
 	height: 70px;
 	margin: 0 20px 0 0;
 }
-.main1{
+.main1 {
     padding-top: 60px;
 	border-bottom: none;
     border-top: 3px solid #fff;
 }
-.main2{
+.main2 {
     padding-top: 60px;
 	border-bottom: none;
     border-top: 3px solid #fff;
 }
 nav a:hover {
-    border-top: 3px solid #0065FC;;
+    border-top: 3px solid #0065FC;
     border-bottom: none;
 }
 
