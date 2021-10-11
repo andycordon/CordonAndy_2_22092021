@@ -1,7 +1,7 @@
 /*RESERVIA - FEUILLE DE STYLES POUR TABLETTES*/
 
 /*GENERAL*/
-.page {
+.pageTab {
     margin: 0 40px;
 }
 h2 {
@@ -56,7 +56,7 @@ article .hotelTarif {
 .colorSection2 {
     background-color: #f2f2f2;
 }
-.tabFlex{
+.tabFlex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -89,5 +89,5 @@ article .hotelTarif {
 .flexStartTab {
     display: flex;
     justify-content: flex-start;
-    margin-right:50px;
+    margin-right: 50px;
 }
